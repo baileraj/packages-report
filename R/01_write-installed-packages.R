@@ -25,7 +25,7 @@ myPackageDF <- allPackageDF %>%
 ## that came from me (Jenny)
 ## it an example of what yours should look like
 
-write_csv(myPackageDF, here("data","install-packages.csv"))
+write_csv(myPackageDF, here("data","installed-packages.csv"))
 
 ## when this script works, stage & commit it and the csv file
 ## PUSH!

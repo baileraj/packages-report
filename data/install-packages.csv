@@ -55,6 +55,7 @@ gridExtra,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,2.3,NA,
 gsubfn,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,0.6-6,NA,3.4.0
 gtable,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,0.2.0,NA,3.4.0
 haven,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,1.1.1,NA,3.4.3
+here,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,0.1,NA,3.4.0
 highr,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,0.6,NA,3.4.0
 hms,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,0.4.1,NA,3.4.3
 htmltools,/Library/Frameworks/R.framework/Versions/3.4/Resources/library,0.3.6,NA,3.4.0

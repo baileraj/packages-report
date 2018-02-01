@@ -23,13 +23,14 @@ write_csv(apt,here("data","add-on-packages.csv"))
 apt_freqtable <- apt %>%
   count(Built) %>%
   mutate(prop = n / sum(n))
+apt_freqtable
 
 ## write this data frame to data/add-on-packages-freqtable.csv
 ## YES overwrite the files that are there now
 ## they came from me (Jenny)
 ## they are just examples
 
-write_csv(apt,here("data","add-on-packages-freqtable.csv"))
+write_csv(apt_freqtable,here("data","add-on-packages-freqtable.csv"))
 
 ## when this script works, stage & commit it and the csv files
 ## PUSH!
