@@ -1,7 +1,16 @@
 ## deja vu from yesterday!
 
+library(dplyr)
+
 ## create a data frame of your installed packages
 
+allPackageDF <- installed.packages() %>%
+  as.data.frame()
+
+myPackageDF <- allPackageDF %>%
+  select("Package","LibPath","Version","Priority","Built")
+
+# names(myPackageDF)
 ## keep the variables
 ##   * Package
 ##   * LibPath
